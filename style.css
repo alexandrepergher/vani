@@ -13,7 +13,7 @@
 body {
     line-height: 1.6; /* Melhora a legibilidade do texto */
     /* Pilha de fontes nativas modernas para carregamento rápido e visual limpo */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #333333; /* Cor de texto suave (não 100% preto) para descansar a vista */
     background-color: #ffffff;
     -webkit-font-smoothing: antialiased; /* Suaviza a fonte no macOS/iOS */
@@ -35,7 +35,7 @@ a {
 /* =========================================
    Estrutura e Layout (Mobile First)
    ========================================= */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* --- Cabeçalho --- */
 body {
@@ -74,22 +74,6 @@ section {
     gap: 20px;
 }
 
-section a {
-    width: 100%;
-    height: 56px;
-    border: 2px solid #fdff8e;
-    border-radius: 7px;
-    display: flex;
-    flex-direction: row;
-    color: #fdff8e;
-    font-weight: 700;
-    line-height: 1.2em;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    padding: 10px 0;
-}
 
 header {
     width: 100%;
@@ -99,22 +83,6 @@ header {
     justify-content: center;
 }
 
-header svg {
-    fill: #ffffff;
-    width: 50%;
-    height: auto;
-}
-
-section a:hover, footer a:hover {
-color: #fdff8e;
-}
-
-section a svg {
-    width: auto;
-    height: 42px;
-    fill: #fdff8e;
-    max-width: 60px;
-}
 
 /* --- Rodapé --- */
 footer {
@@ -126,6 +94,7 @@ footer {
     padding: 0 40px;
     align-items: center;
     gap: 10px;
+    
 }
 
 footer a {
@@ -147,8 +116,7 @@ footer a svg {
 footer p {
     width: 100%;
     font-size: .9em;
-    font-family: 'Times New Roman', Times, serif;
-}
+font-family: "Roboto", sans-serif;}
 
 
 /* =========================================
